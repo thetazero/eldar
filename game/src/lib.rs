@@ -45,19 +45,11 @@ impl Plugin for Game {
         // Add your global update code here.
     }
 
-    fn on_os_event(
-        &mut self,
-        _event: &Event<()>,
-        _context: PluginContext,
-    ) {
+    fn on_os_event(&mut self, _event: &Event<()>, _context: PluginContext) {
         // Do something on OS event here.
     }
 
-    fn on_ui_message(
-        &mut self,
-        _context: &mut PluginContext,
-        _message: &UiMessage,
-    ) {
+    fn on_ui_message(&mut self, _context: &mut PluginContext, _message: &UiMessage) {
         // Handle UI events here.
     }
 
